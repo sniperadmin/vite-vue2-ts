@@ -15,10 +15,6 @@ const config = defineConfig({
   },
 
   plugins: [createVuePlugin({}), ViteComponents({ transformer: 'vue2' })],
-
-  // server: {
-  //   port: 8080
-  // }
 })
 
 export default config;

@@ -1,6 +1,7 @@
 import './style.css'
 import Vue from 'vue'
 import App from './App.vue'
+import vuetify from './plugins/vuetify'
 
 // const app = document.querySelector<HTMLDivElement>('#app')!
 
@@ -10,5 +11,6 @@ import App from './App.vue'
 // `
 
 new Vue({
+  vuetify,
   render: (h) => h(App)
 }).$mount('#app')
